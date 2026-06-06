@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@400;500;600;700;800;900&family=Oswald:wght@400;500;600;700&family=Inter:wght@400;500;600;700;850;900&family=JetBrains+Mono:wght@400;500;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-bebas: "Bebas Neue", sans-serif;
+  --font-montserrat: "Montserrat", sans-serif;
+  --font-oswald: "Oswald", sans-serif;
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+
+  /* Premium Luxury Colors */
+  --color-carbon: #0B0B0D;
+  --color-charcoal: #141414;
+  --color-neon-red: #FF2E2E;
+  --color-burnt-orange: #FF6A00;
+  --color-electric-blue: #00E5FF;
+  --color-neon-cyan: #00FFF0;
+  --color-neon-purple: #9B5CFF;
+  --color-price-green: #00FF85;
+}
+
+html {
+  scroll-behavior: smooth;
+  background-color: #0b0b0d;
+}
+
+body {
+  background-color: #0b0b0d;
+}
+
+/* Hide standard styling of native input range scrollbars to keep a premium custom theme */
+input[type="range"] {
+  height: 6px;
+  border-radius: 9999px;
+  cursor: pointer;
+}
+
+/* Glassmorphism Classes */
+.glass-card {
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(14px);
+}
+
+.glass-card-hover:hover {
+  background: rgba(255, 255, 255, 0.12);
+  border-color: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 0 25px rgba(255, 46, 46, 0.2);
+}
+
+/* Glowing text effects */
+.glow-cyan {
+  text-shadow: 0 0 10px rgba(0, 255, 240, 0.5), 0 0 20px rgba(0, 255, 240, 0.3);
+}
+
+.glow-red {
+  text-shadow: 0 0 10px rgba(255, 46, 46, 0.5), 0 0 20px rgba(255, 46, 46, 0.3);
+}
+
+.glow-orange {
+  text-shadow: 0 0 10px rgba(255, 106, 0, 0.5), 0 0 20px rgba(255, 106, 0, 0.3);
+}

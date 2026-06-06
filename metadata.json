@@ -1,0 +1,6 @@
+{
+  "name": "Iron Creed Premium Fitness",
+  "description": "India's ultra-premium 3D cinematic fitness experience advertisement. Experience luxury gym membership, interactive program selectors, and high-energy trainers.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
